@@ -16,5 +16,5 @@ $ docker-compose up -d
 - 下記のコマンドをうつ。
 
 ```bash
-$ denon start
+$ denon dev
 ```
