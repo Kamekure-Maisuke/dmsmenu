@@ -6,7 +6,7 @@ import {
 
 const router = new Router()
 router
-  .get('/books', getMenus)
-  .post('/books', addMenus)
+  .get('/menus', getMenus)
+  .post('/menus', addMenus)
 
 export default router
