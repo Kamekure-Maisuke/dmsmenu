@@ -1,0 +1,11 @@
+scripts:
+  dev:
+    cmd: "deno run app.ts"
+    desc: "run my app.ts file"
+    allow:
+      - plugin
+      - net
+      - read
+      - write
+      - env
+    unstable: true
